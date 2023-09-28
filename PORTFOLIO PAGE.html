@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      th,td{
+        color:rgb(194, 191, 23);
+        font-size: 20px;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      footer {
+        text-align: right;
+        padding: 20px;
+        font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      a[href]{
+        color: rgb(204, 197, 198);
+        text-decoration-line: none;
+      }
+      img{
+        border-radius:10px;
+      }
+      body{
+        background-color: rgb(14, 47, 88);
+      }
+      #first{
+        padding: 10px;
+      }
+    </style>
+    <title>Home Page</title>
+</head>
+<body >
+   <center><img src="/pic.jpg" height="200"> </center> <br><br>
+   <center><table border="2px" border-color="red" >
+    <caption style="color:darkgreen; font-size: 30px; font-style: oblique;padding-bottom: 10px;"> <b>Shiva Raghav  <br> <span id="element"></span> </caption></b>
+   
+     <tr>
+      <th>Go to my </th> 
+      <th style="padding:10px;">Check my social media handles : </th>
+      <th style="padding: 10px;">Resources for the college students</th>
+    </tr>
+    <!-- both the types of paths are written here- relative and absolute -->
+    <tr rowspan="3">
+      <td><span id="first"><a href="/education.html" target="_main"> 
+        <img src="/book.jpg" height="40"><br>Educational details</a></span><br>
+        <a href="/hobbies.html" target="_main">
+          <img src="/hobby.jpg" height="40"><br> Hobbies</a><br>
+        <a href="/projects.html" target="_main">
+         <img src="/pro.jpg" height="40"><br> Projects</a>
+      </td>
+      <td><a href="https://www.linkedin.com/in/shiva-raghav-96b94a255" target="_main"> 
+        <img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" height="60">
+      </a> <br><br>
+      </section>
+    </a>
+    </td>
+      <td><a href="/sign_up_form.html" target="_main"> 
+       <img src="/res.png" height="70"><br> Resources</a></td>
+    </tr>
+</table></center><br><br>
+<footer>
+<a href="/contact.html" target="_main"><big><img src="https://tse1.mm.bing.net/th?id=OIP.9RN-AnGeevk3u7BGDSaAeQHaFy&pid=Api&P=0&h=180" alt="contact me" height="60"></big></a>
+</footer>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+ var typed = new Typed('#element', {
+   strings: ['An Aspiring Developer', 'An Enthusiastic Competitive Programmer'],
+   typeSpeed: 100,
+ });
+</script>
+</body>
+</html>
